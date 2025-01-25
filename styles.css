@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 1s ease, background-image 1s ease;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.clock-container {
+    margin-bottom: 20px;
+}
+
+.time-display {
+    font-size: 60px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.greeting {
+    font-size: 24px;
+    color: #666;
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Time Zone Container */
+.timezone-container {
+    display: none;
+    margin-top: 20px;
+}
+
+.timezone-container.active {
+    display: block;
+}
+
+/* Background Styles */
+.day {
+    background-color: #f0f8ff;
+}
+
+.night {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.random-background {
+    background-size: cover;
+    background-position: center;
+}
+
+/* Optional Styles for Background Images */
+.bg1 {
+    background-image: url('nature_day.jpg');
+}
+
+.bg2 {
+    background-image:  url('nature_day.jpg');
+}
+
+.bg3 {
+    background-image:  url('nature_day.jpg');;
+}
+
+.bg4 {
+    background-image:  url('nature_day.jpg');
+}
